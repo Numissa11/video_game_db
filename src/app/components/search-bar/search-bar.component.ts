@@ -17,6 +17,7 @@ export class SearchBarComponent implements OnInit {
 
   onSubmit(form: NgForm) 
   {
+    // route qui navigue jusqu'à la search page, et on extrait du form la valeur qu'on écrit
     this.router.navigate(['search', form.value.search]);
   }
 
