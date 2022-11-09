@@ -34,7 +34,7 @@
         <img
         *ngFor="let gamePlatform of game.parent_platforms"
         class="game-platform"
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8UaO8zvh5DjMIZ3C-jUQyIdtnCH9VUBvPRCZIbf60YQ&s"
+        src="../../assets/{{ gamePlatform.platform.slug }}.svg"
         alt="slug"
         />
       </div>
