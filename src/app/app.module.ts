@@ -27,6 +27,7 @@ import { DetailsComponent } from './components/details/details.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    GaugeModule.forRoot(),
     BrowserAnimationsModule,
     HttpClientModule,
     FormsModule,
