@@ -28,14 +28,13 @@ import { DetailsComponent } from './components/details/details.component';
     BrowserModule,
     AppRoutingModule,
     GaugeModule.forRoot(),
-    BrowserAnimationsModule,
     HttpClientModule,
     FormsModule,
-    GaugeModule,
+    BrowserAnimationsModule,
+    MatFormFieldModule,
+    MatSelectModule,
     MatTabsModule,
     MatIconModule,
-    MatFormFieldModule,
-    MatSelectModule
   ],
   providers: [
     {
